@@ -1,0 +1,310 @@
+/* 
+original color for accent lines: orange (FF9900)
+*/
+
+
+*{
+    margin: 0px; 
+    padding: 0px; 
+    top: 0px; 
+    left: 0px;
+}
+body{
+    text-align: center;
+    color: #fff;
+    /*background-color: #000000;*/
+    background-color: #808080;
+    font-family: georgia, serif, sans-serif;
+}
+a{
+    color: blue; 
+    text-decoration: none;
+}
+a:visited{
+    color: #CC000; 
+    text-decoration: none;
+}
+/* a:hover{
+    color: #009960;
+    text-decoration: none;
+} */
+#central{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    /*width: 960px;*/
+    width: 900px;
+    text-align: left;
+    background-color: #fff;
+}
+#header{
+    background-color: #000000;
+    background-image: url(images/ngc3992_slice.jpg);
+    background-repeat: no-repeat;
+    /*height: 120px;*/
+    height: 186px;
+    /*width: 960px;*/
+    widht: 900px;
+    left: 0px;
+    top: 0px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+#header a{
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bolder;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+    margin-left: 112px;
+    margin-top: 35px;
+}
+#navlist{
+    margin-left: 0px;
+    padding-left: 0px;
+    /* padding-bottom: 2px;*/
+    white-space: nowrap;
+    position: relative;
+    height: 17px;
+    /*width: 960px;*/
+    width: 900px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+}
+#navlist li{
+    display: inline;
+    list-style-type: none;
+}
+#navlist a {
+    border-left: 1px solid #FFFFFF; 
+    border-right: 1px solid #FFFFFF; 
+    box-shadow: inset 0 0 2px 1px #FFFAFA;
+    -moz-box-shadow: inset 0 0 2px 2px #FFFFAFA;
+    -webkit-box-shadow: inset 0 0 2px 2px #FFFAFA;
+    padding: 3px 10px;
+    /*background-color: #666;*/
+    /*background-color: #000000;*/
+    /*background-color: #4169E1;*/
+    /*background-color: #404040;*/
+    background-color: #800000;
+    font-size: 14px;
+    height: 17px;
+    /* width: 138px; */
+    /* width: 170px; */
+    width: 158px;
+    display: inline;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+#navlist a:hover{
+    background-color: #666;
+    /*background-color: #000000;*/
+}
+
+/*
+For getting back to 6 tabs instead of 5, if desired.
+also have to switch back to width of 138 px in navlist a
+#n1{left: 0px;}
+#n2{left: 160px;}
+#n3{left: 320px;}
+#n4{left: 480px;}
+#n5{left: 640px;}
+#n6{left: 800px;}
+*/
+/*
+#n1{left: 0px;}
+#n2{left: 192px;}
+#n3{left: 384px;}
+#n4{left: 576px;}
+#n5{left: 768px;}
+*/
+#n1{left: 0px;}
+#n2{left: 180px;}
+#n3{left: 360px;}
+#n4{left: 540px;}
+#n5{left: 720px;}
+
+#content{
+    margin-top: 0px;
+    position: relative;
+    /*width: 960px;*/
+    width: 900px;
+    background-color: #fff;
+}
+#central_eer{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+}
+#central_eer h1{
+    margin: 10px 0px 10px 0px;
+    width: 960px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #330033;
+    background-color: inherit;
+}
+#central_eer p{
+    font-size: inherit;
+    font-weight: normal;
+    color: #333333;
+    background-color: inherit;
+    padding-top: 3px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+#central_eer span{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    width: 960px;
+    font-size: 10pt;
+    font-weight: normal;
+    color: #333333;
+    background-color: inherit;
+}
+ul {
+    /*font-size: 13px; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: normal;
+    color: inherit;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ul.indent  {
+    /*font-size: 13px; */
+    font-weight: normal;
+    color: inherit;
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 25px;
+}
+
+ol {
+    /*font-size: 13px; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: normal;
+    color: inherit;
+    list-style-position: outside;
+}
+
+ol.indent  {
+    /*font-size: 13px; */
+    font-weight: normal;
+    color: inherit;
+    list-style-position: outside;
+    margin-left: 25px;
+}
+
+#content h2
+{
+    /*color: #666;*/
+    color: #000000;
+    padding-bottom: 0px;
+    /*border-bottom: 2px solid #4169E1;*/
+    border-bottom: 2px solid #000000;
+    font-size: 150%;
+    letter-spacing: -1px;
+}
+
+#content h3
+{
+    color: #666;
+    padding-bottom:0px;
+    /*border-bottom: 2px solid #4169E1;*/
+    border-bottom: 2px solid #000000;
+    font-size: 120%;
+    letter-spacing: -1px;
+}
+
+#content h4 
+{
+    padding-top:0px;
+    padding-bottom:0px;
+    /*border-bottom: 3px solid #DCDCDC;*/
+    border-bottom: 3px slid #0000000;
+}
+
+#mbkgray1 
+{
+    background-color: #F2F2F2;
+    /*background-color:#666666;*/
+    border-bottom: 3px solid #DCDCDC;
+    border-top: 3px solid #DCDCDC;
+}
+
+
+#mbkgray2
+{
+    background-color: #DCDCDC;
+}
+
+
+#footer
+{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    position: relative;
+    /*width: 940px;*/
+    width: 880px;
+    /*background-color: #4169E1;*/
+    background-color: #800000;
+    padding: 3px 10px;
+}
+
+ol.noindent
+{
+    list-style-type: decimal;
+    margin-left: 0.72em;
+    padding-left: 0.72em;
+    list-style-position: outside;
+}
+
+ol li
+{
+    padding-bottom: 6px;
+}
+
+ul.noindent
+{
+    margin-left: 0.56em;
+    padding-left: 0.56em;
+    list-style-position: outside;
+}
+
+ul li
+{
+    padding-bottom: 3px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #404040;
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+td {
+	border-right: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	color: #404040;
+}
